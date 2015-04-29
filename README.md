@@ -3,6 +3,6 @@
 
 2015/4/29
 
-初版完成
+version 1.3 completed
 
-檔案分類待修改
+try to make another template
