@@ -1,0 +1,115 @@
+
+body{
+	overflow-y: scroll;
+	font: 62.5% "微軟正黑體", "Microsoft JhengHei","Georgia", serif;
+	margin:auto;
+	background: url(images/background.png) repeat 5% 5%;
+	opacity:0.8;
+	color:white;
+}
+
+#midground {
+	background: url(images/midground.png) repeat 20% 20%;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 997;
+}
+
+#foreground {
+	background: url(images/foreground.png) repeat 90% 110%;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 998;
+}
+
+.header{
+	display: block;
+	width:550px;
+	margin: auto;	
+}
+	h1{
+		text-align:center;
+		color:yellow;
+	}
+	h3{
+		text-align:center;
+		color:orange;
+	}
+	h4{
+		text-align:center;
+		color:orange;
+	}
+	h5{
+		color:white;
+	}
+#cover-top{
+	margin: 30px auto 0 auto ;
+	display:block;
+	width:550px;
+	border-radius: 16px 16px 0 0;
+	background-color:rgba(105,105,105,0.3);
+	overflow-y:auto;
+
+}
+#cover{
+	margin: auto;
+	padding-top:10px;
+	width:550px;
+	display:block;
+	border-radius:0 0 16px 16px;
+	background-color:rgba(192,192,192,0.3);
+	overflow-y:auto;
+}
+	#row-1{
+		
+		margin: 0 0 0 170px;
+		
+	
+	}
+	#row-2{
+		margin: 0 0 0 170px;
+		padding-bottom:10px;
+	
+	}
+	button{
+		background-color:#7fffd4;
+		color:red;
+		border-radius:5px;
+	}
+	button#play{
+		margin-left:250px;
+	}
+	
+	
+	#B-photo{
+		height:1000px;
+		display:none;
+		background-image:url(images/LP.jpg);
+		background-repeat:no-repeat;
+		background-position:center;
+	}
+	#C-photo{
+		height:100px;
+		width:100px;		
+		background-color:rgba(175,238,238,0.3);
+		margin: auto auto 15px 20px;
+		color:white;	
+		
+	}
+
+
+.field{
+	display: block;
+	width:550px;
+	margin: 30px auto;
+	
+	
+}
+
+p{
+	
+	color:white;
+	font-size:15px;
+	text-align:center;
+
+}
